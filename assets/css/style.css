@@ -1,4 +1,6 @@
-
+body {
+    background: rgba(175, 172, 172, 0.26);
+}
 
 h1{
     color:#4aaaa5;
@@ -9,19 +11,20 @@ p{
 
 }
 .firstpct {
-height: 300px;
-width: 250px;
-}
-.pct2{
-height:60px;
-width:60px;
-}
-.about {
+    height: 300px;
+    width: 250px;
+    }
+    .pct2{
+    height:60px;
+    width:60px;
+    }
+.aboutme {
     background-color:#ffffff;
     border-color:#dddddd; 
     display: grid;
-    grid-template-columns: 30% 40%;
-
+    grid-template-columns: 25% 40%;
+    grid-column-gap: 10px;
+    border-width:80px;
 
 }
 
