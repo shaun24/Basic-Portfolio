@@ -31,3 +31,12 @@ p{
 .connect {
 
 }
+.portpics {
+    grid-template-colums: 30% 30%;
+    
+}
+
+.Portfolio {
+    height:120px;
+    width:120px;
+}
