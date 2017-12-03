@@ -1,8 +1,17 @@
 body {
     background: rgba(175, 172, 172, 0.26);
+    border-color:red;
+}
+.container {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    border-color:red;
 }
 
 h1{
+    color:#4aaaa5;
+    border-color:red;
+}
+h2{
     color:#4aaaa5;
 }
 p{
@@ -22,9 +31,10 @@ p{
     background-color:#ffffff;
     border-color:#dddddd; 
     display: grid;
-    grid-template-columns: 25% 40%;
+    grid-template-columns: 30% 50%;
     grid-column-gap: 10px;
     border-width:80px;
+    border-color: red;
 
 }
 
@@ -32,11 +42,19 @@ p{
 
 }
 .portpics {
-    grid-template-colums: 30% 30%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     
 }
 
 .Portfolio {
     height:120px;
     width:120px;
+}
+
+.socialmeds {
+    border-color: red;
+}
+
+#message {
+    color:red;
 }
