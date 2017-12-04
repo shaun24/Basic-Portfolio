@@ -14,6 +14,7 @@ body {
     /* float:left; */
     /* Display:inline-block; */
     /* flex-direction:row; */
+    /* display: table-column; */
 }
 
 .headerLogo{
@@ -28,7 +29,8 @@ body {
     text-align:right;
     Display:block;
     /* Float: right; */
-    flex-direction:row;
+    /* flex-direction:row; */
+    /* display:table-row; */
 }
 
 .section2{
@@ -41,7 +43,8 @@ body {
 }
 .closing{
     background-color:#666666;
-    height:50px
+    height:50px;
+    clear: both;
 }
 .footer{
     text-align:center;
@@ -50,6 +53,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-top-color: #4aaaa5;
     border-top: 10px;
+}
+
+.navigationLink {
+    font-family: Arial, Helvetica, sans-serif;
+    font: color #777777;
+    /* column-gap: 15px; */
+   /* display: table-row;  */
 }
 
 .firstpct {
@@ -72,16 +82,27 @@ body {
     border-color: red;
 
 }*/
-
-.connect {
-
-}
-.portpics {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+/* .portpics { */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     
+/* } */
+
+.portfolio {
+    height:120px;
+    width:120px;
 }
 
-.Portfolio {
+.portfolioBody {
+    /* grid-template-columns: 1fr 1fr; */
+    /* flex-direction: row; */
+}
+
+.portfolioPicture{
+    /* height:120px; */
+    /* width:120px; */
+}
+
+.pct3 {
     height:120px;
     width:120px;
 }
