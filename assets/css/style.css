@@ -58,13 +58,16 @@ body {
     width: 960px;
 }
 
-/* .aboutMeHeader {
-    width:640px;
+.aboutMeHeader {
+    width:625px;
     background-color: #ffffff;
     height:50px;
-    border: solid #dddddd 3px;
-    margin-top:15px
-} */
+    border: solid #dddddd;
+    margin-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 0px;
+    padding-left:15px;
+}
 .aboutMeBody {
     /* align-content: right; */
     background: #ffffff;
@@ -102,7 +105,7 @@ body {
 
 .navigationLink {
     font-family: Arial, Helvetica, sans-serif;
-    font: color #a8a8a8;
+     color: #a8a8a8;
     /* column-gap: 15px; */
    /* display: table-row;  */
    display: inline;
@@ -121,7 +124,7 @@ body {
     width:60px;
     }
 
-/*.aboutme {
+/* .aboutme {
     background-color:#ffffff;
     border-color:#dddddd; 
     display: grid;
@@ -130,24 +133,45 @@ body {
     border-width:80px;
     border-color: red;
 
-}*/
+} */
 /* .portpics { */
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     
 /* } */
 
 .portfolio {
-    height:120px;
+    height:50px;
     width:120px;
+}
+.portfolioHeader {
+    width:625px;
+    background-color: #ffffff;
+    height:50px;
+    border: solid #dddddd;
+    margin-top:15px;
+    padding-bottom: 15px;
+    border-bottom: 0px;
+    padding-left:15px;
 }
 
 .portfolioBody {
     /* grid-template-columns: 1fr 1fr; */
     /* flex-direction: row; */
     /* float: left; */
-    width:650px;
-    height:700px;
-    float: left;
+    width:960px;
+    /* height:700px; */
+    /* float: left; */
+}
+
+.setOfPics {
+    width:520px;
+    height:450px;
+    float:left;
+    background-color: #ffffff;
+    padding-left:120px;
+    padding-top:50px;
+    margin-bottom:30px;
+    border: solid #dddddd 3px;
 }
 
 .portfolioPicture{
@@ -157,18 +181,28 @@ body {
 
 .pct3 {
     height:120px;
-    width:120px;
+    width:140px;
     float: left;
     margin-right: 100px;
     margin-bottom:25px;
 }
 
+/* .imgText {
+    z-index: 1;
+    width:140px;
+    height:15px; */
+    /* background-color: #4aaaa5;
+    color:#dddddd;
+    margin-right:100px;
+    margin-bottom:25px; */
+
+}
 .socialMeds {
    float: left;
    /* position: absolute; */
    /* bottom: 800px; */
    /* right:80px; */
-   background: whitesmoke;
+   background: #ffffff;
    height: 200px;
    width: 270px;
    text-align: center;
@@ -177,13 +211,42 @@ body {
    /* padding: 0px 0px 0px 20px; */
 }
 
+.socialMeds2 {
+    float: left;
+    position: absolute;
+    /* bottom: 800px; */
+    /* right:80px; */
+    background: #ffffff;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    margin-left: 15px;
+    border: solid #dddddd 3px;
+    /* padding: 0px 0px 0px 20px; */
+    display: inline;
+}
+
+.socialMeds3 {
+    float: left;
+    position: relative;
+    bottom: 502px;
+    right:-628px;
+    background: #ffffff;
+    height: 200px;
+    width: 270px;
+    text-align: center;
+    margin-left: 15px;
+    border: solid #dddddd 3px;
+    /* padding: 0px 0px 0px 20px; */
+ }
+
 /*#message {
     color:red;
 }
 */
 .socialImage{
-    float:left;
-
+    /* float:left; */
+    display: inline;
 }
 
 h2{
@@ -195,6 +258,84 @@ p{
     /* vertical-align:right; */
 }
 
+h3 {
+    background-color: #4aaaa5;
+    color:#dddddd;
+    /* margin-right:100px; */
+    /* margin-bottom:25px; */
+    /* height:15px */
+}
+
+.try {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
 .section3 {
+    /* float:left; */
+}
+
+.contactBody {
+    margin-top: 20px;
+    width:620px;
+    height:530px;
+    background-color: #ffffff;
+    /* width:640px; */
+    /* height:350px; */
+    border: solid #dddddd 3px;
+    /* border: 15px 30px 30px 30px; */
+    /* padding:20px 30px 30px 30px; */
     float:left;
+    display: inline;
+    /* margin-right: 20px; */
+    padding-left:20px;
+    margin-bottom:30px;
+}
+.nameLabel{
+/* padding-bottom: 20px; */
+}
+.nameInput {
+padding-bottom: 20px
+}
+.emailLabel {
+padding-bottom:20px;
+}
+.emailInput {
+
+}
+.messageLabel {
+padding-bottom: 10px;
+}
+.messageInput {
+
+}
+.messageMe{
+    width: 590px;
+    height:250px;
+
+}
+.txtInput {
+    width:590px;
+}
+
+.submitBtn {
+
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 50px;
+    width: 90px;
+    font-weight: 900;
+    font-size: large;
+    border:solid;
+}
+
+.section4{
+    width:960px;
+    float: left;
+    display: inline;
 }
