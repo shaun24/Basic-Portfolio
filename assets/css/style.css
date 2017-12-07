@@ -1,6 +1,6 @@
 body {
     background: rgba(175, 172, 172, 0.26);
-    border-color:red;
+    /* border-color:red; */
 }
 /* .container { */
     /* grid-template-columns: 2fr 1fr 1fr 1fr; */
@@ -111,6 +111,7 @@ body {
    display: inline;
    margin-right:10px;
    /* margin-top:25px; */
+   text-decoration: none;  
 }
 
 .firstpct {
@@ -265,7 +266,51 @@ h3 {
     /* height:15px */
 }
 
-.try {
+a {
+    text-decoration:none;
+}
+
+#try {             /*no clue why these id's won't overlay all photos */
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try2 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try3 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try4 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try5 {
+    z-index: 1;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#try6 {
     z-index: 1;
     width: 140px;
     text-align: center;
